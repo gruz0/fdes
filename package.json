@@ -1,0 +1,16 @@
+{
+  "name": "just-one-more-feature",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "bun@1.4.2",
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "capture:showcase": "bun scripts/capture-showcase.ts",
+    "dev": "bun scripts/serve.ts",
+    "test": "bun scripts/smoke-test.ts"
+  },
+  "devDependencies": {
+    "playwright-core": "1.62.1"
+  }
+}
